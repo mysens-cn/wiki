@@ -1,0 +1,46 @@
+{
+    "title" : "Mysensor文档",
+    "language" : "zh-hans",
+    "description" : "Mysensors使用文档",
+     "plugins": [
+        "-lunr", 
+        "-search", 
+        "search-pro",
+        "expandable-chapters-small",
+        "insert-logo",
+        "chapter-fold",
+        "code",
+        "emphasize",
+        "splitter",
+        "tbfed-pagefooter",
+        "alerts",
+        "popup",
+        "lightbox",
+        "pageview-count",
+        "iframely",
+        "include-csv",
+        "anchor-navigation-ex"
+    ],
+      "pluginsConfig": {
+      "tbfed-pagefooter": {
+          "copyright":"Copyright &copy mysens.cn 2018",
+          "modify_label": "该文档修订时间：",
+          "modify_format": "YYYY-MM-DD HH:mm:ss"
+      },
+     "insert-logo": {
+      "url": "../images/logo.png"
+    },
+      "anchor-navigation-ex": {
+      "isRewritePageTitle": true,
+      "isShowTocTitleIcon": true,
+      "tocLevel1Icon": "fa fa-hand-o-right",
+      "tocLevel2Icon": "fa fa-hand-o-right",
+      "tocLevel3Icon": "fa fa-hand-o-right"
+    }
+    },
+    "links" : {
+        "sidebar" : {
+            "Home" : "https://mysens.cn"
+        }
+    }
+}
